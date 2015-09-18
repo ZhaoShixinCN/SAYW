@@ -1,0 +1,25 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.Sherlock"/>
+    <style name="DialogTheme" parent="@android:style/Theme.Dialog"/>
+    <style name="ListBackContent">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/height_list</item>
+        <item name="android:background">@color/background_list_back</item>
+        <item name="android:gravity">right</item>
+    </style>
+    <style name="ListFrontContent">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/height_list</item>
+        <item name="android:background">@color/background_list_front</item>
+        <item name="android:padding">@dimen/padding_default</item>
+    </style>
+    <style name="ListTitle">
+        <item name="android:paddingBottom">@dimen/padding_default</item>
+        <item name="android:textColor">@color/text_title</item>
+        <item name="android:textSize">@dimen/font_size_title</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+
+    <dimen name="activity_vertical_margin">5dp</dimen>
+
+    <dimen name="height_list">30dp</dimen>
+    <dimen name="padding_default">8dp</dimen>
+
+    <dimen name="font_size_title">17sp</dimen>
+</resources>

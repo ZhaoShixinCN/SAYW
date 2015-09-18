@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+        >
+
+    <LinearLayout
+        android:id="@+id/back"
+        android:tag="back"
+        style="@style/ListBackContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/action_modify_saved"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_modify"
+            android:layout_gravity="right"
+            android:visibility="invisible"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/action_delete_saved"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_delete"
+            android:layout_gravity="end"
+            android:layout_marginRight="4dp"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:id="@+id/front"
+        android:tag="front"
+        style="@style/ListFrontContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/ListTitle"
+            android:id="@+id/row_message"/>
+    </RelativeLayout>
+
+</FrameLayout>
